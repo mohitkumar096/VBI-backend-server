@@ -1,0 +1,19 @@
+{
+  "name": "vbi-backend-server",
+  "version": "1.0.0",
+  "description": "API server for Vertex Bright Institute website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "sqlite3": "^5.1.7",
+    "bcryptjs": "^2.4.3"
+  }
+}
