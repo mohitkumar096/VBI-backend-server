@@ -3,8 +3,8 @@ const cors = require('cors');
 const crypto = require('crypto'); // Built into Node.js for generating IDs
 const bcrypt = require('bcryptjs'); // For hashing student passwords
 const db = require('./db');
-module.exports = app;
-export default app;
+// module.exports = app;
+// export default app;
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -249,4 +249,4 @@ app.listen(port, () => {
     console.log(`API Server is running at http://localhost:${port}`);
 });
 
-export default app;
+// module.exports = app;
